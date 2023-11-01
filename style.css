@@ -1,0 +1,250 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.logo{
+   width: 270px;
+   margin: 8px;
+   margin-left: 150px;
+}
+.navlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+   gap: 20px;
+   margin-top: -34px;
+   margin-right: 150px; 
+}
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+a:hover {
+    color: rgb(10, 245, 174);
+  }
+li a{
+    /* color: #00b39b; */
+    text-decoration: solid;
+    font-size: 15px;
+    /* color: #ababab; */
+    color: rgb(110, 110, 110);
+    
+
+}
+li a .vert{
+    background-color: #ababab;
+}
+
+
+.pic{
+    width: -20px;
+    margin: 50px;
+    margin-left: 38%;   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #00b39b;
+    margin-left: 5%;
+    margin-top: -10px;
+    word-spacing: 10px;
+}
+.section1{
+    font-family: sans-serif;
+    color: #817979;
+    margin: 90px;
+    line-height: 1.60;
+    box-sizing: inherit;
+    padding-left: 200px;
+   margin-top: 40px;
+   font-size: 15px;
+
+}
+.txt2{
+    font-family: sans-serif;
+    color: #817979;
+    line-height: 1.60;
+    box-sizing: inherit;
+    padding-left: 500px;
+   margin-top: -260px;
+   font-size: 15px;
+
+}
+.text1-2{
+    display: flex;
+    gap: 50px;
+}
+
+.item1{
+    background-color: #00CCB1;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    
+}
+.item3{
+    background-color: #00CCB1;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+}
+.section2{
+    /* background-color: #817979; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+h2{
+    font-family: monospace;
+    font-size: 30px;
+    box-sizing: inherit;
+    margin-left: 50px; 
+    color: white;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.item1 p{
+    margin-left: 50px;
+    font-family: serif;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: -20px;
+font-size: 25px;
+font-weight: 400;
+margin-right: 10px;
+font-weight: 100;
+}
+.icon1{
+    margin-left: 15%;
+    margin-top: 20%;
+    /* padding-top: 20px; */
+    font-size: 20px;
+    padding-bottom: -100px;
+    padding-top: -80px;
+}
+#choose1{
+    margin-left: 30px;
+    text-decoration: underline;
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.item2{
+    background-color: #3D83DF;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    
+}
+ .item2 h2{
+    font-family: monospace;
+    font-size: 30px;
+    box-sizing: inherit;
+    margin-left: 50px; 
+    color: white;
+    font-weight: 100;
+    padding-bottom: 70px;
+
+    
+}
+.item2 p{
+    margin-left: 50px;
+    font-family: serif;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -80px;
+font-size: 25px;
+font-weight: 400;
+margin-right: 10px;
+font-weight: 100;
+}
+.icon2{
+    margin-left: 15%;
+    margin-top: 20%;
+    /* padding-top: 20px; */
+    font-size: 20px;
+    padding-bottom: -100px;
+    padding-top: -80px;
+}
+#choose2{
+    margin-left: 30px;
+    text-decoration: underline;
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.item3{
+   background-color: #1B2734;
+   border-radius: 10px;
+   width: 300px;
+   height: 350px;
+
+}
+.item3 h2{
+    font-family: monospace;
+    font-size: 30px;
+    box-sizing: inherit;
+    margin-left: 50px; 
+    color: white;
+    font-weight: 100;
+    padding-bottom: 70px;
+}
+.item3 p{
+    margin-left: 50px;
+    font-family: serif;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -80px;
+font-size: 25px;
+font-weight: 400;
+margin-right: 10px;
+font-weight: 100;
+}
+.icon3{
+    margin-left: 15%;
+    margin-top: 20%;
+    /* padding-top: 20px; */
+    font-size: 20px;
+    padding-bottom: -100px;
+    padding-top: -80px;
+}
+#choose3{
+    margin-left: 30px;
+    text-decoration: underline;
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+#choose4{
+    margin-left: 30px;
+    text-decoration: underline;
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+.title{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 1.625em;
+    color: #00b39b;
+    font-weight: 400;
+    float: left;
+    margin-left: 70px;
+
+}
