@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Docplanner Group</title>
     <link rel="shortcut icon" type="x-icon" href="doc.ico" >
 </head>
 <body>
-    <nav>
+    <nav class="nav" style="position: fixed; width: 100%; background-color: rgb(248, 247, 244); top: 0px;">
                 <img src="logo.svg" alt="logo" class="logo">
-            <ul class="navlist">
-        <li id="vert"><a href="#">About us</a></li>
+            <ul class="navlist" style="color: #ababab;">
+        <li id="loun"><a href="#">About us</a></li>
         <li><a href="https://www.docplanner.com/career">Career</a></li>
         <li><a href="#">Departments</a></li>
     </ul> 
@@ -21,7 +23,7 @@
 
         <img src="title.png" alt="title" class="pic">
         <div>
-            <h1>Making the healthcare experience more human</h1>
+            <h1 class="section1-h1" style="text-align: center;">Making the healthcare experience more human</h1>
         </div>
         <div class="text1-2">
                 <div class="">
@@ -35,9 +37,9 @@
     </section> 
     <section class="section2">
         
-                <div class="item1">
-                        <svg class="icon1" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
-                    <h2 >For patients</h2>  
+                <div class="item1" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <svg class="icon1" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
+                    <h2 class="item1-h2">For patients</h2>  
                     <p class="p1">Find a doctor, book a <br>visit and solve any <br> health-related doubt</p>
                     <select name="choose country" id="choose1" >choose country
                         <option >choose country</option>
@@ -56,9 +58,9 @@
                         <option>turkey</option>
                     </select>
                 </div>
-                <div class="item2">
-                    <svg class="icon2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
-                    <h2>For doctors</h2>  
+                <div class="item2" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <svg style="margin-bottom: 20px; " class="icon2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                    <h2 class="item2-h2">For doctors</h2>  
                     <p>Save time managing <br>visits and cut no- <br>shows by half</p>
                     <select name="choose country" id="choose2" >choose country
                         <option >choose country</option>
@@ -77,9 +79,9 @@
                         <option>turkey</option>
                     </select>
                 </div>
-                <div class="item3" style="color: #1B2734;">
-                    <svg class="icon3" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c.2 35.5-28.5 64.3-64 64.3H128.1c-35.3 0-64-28.7-64-64V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7V64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V185l52.8 46.4c8 7 12 15 11 24zM272 192c-8.8 0-16 7.2-16 16v48H208c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h48v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320h48c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H320V208c0-8.8-7.2-16-16-16H272z"/></svg>
-                    <h2>For clinics</h2>  
+                <div class="item3" style="color: #1B2734; box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;">
+                    <svg class="icon3" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c.2 35.5-28.5 64.3-64 64.3H128.1c-35.3 0-64-28.7-64-64V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7V64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V185l52.8 46.4c8 7 12 15 11 24zM272 192c-8.8 0-16 7.2-16 16v48H208c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h48v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320h48c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H320V208c0-8.8-7.2-16-16-16H272z"/></svg>
+                    <h2 class="item3-h2">For clinics</h2>  
                     <p>Deliver an exceptional <br> patient experience in <br> your clinic</p>
                     <select name="choose country" id="choose3" >choose country
 <option value="">2 to 20 specialists</option>
@@ -103,42 +105,100 @@
                            We are a global <br> company
                       with local <br> culture
                  </dir>
-         <div class="menu">
-       
-
-
-         </div>
-     
-
-
-
-
-
-
+    <div class="menu">
+       <img src="1.svg" alt="" class="edit1">
+       <img src="2.svg" alt="" class="edit2">
+       <img src="3.svg" alt="" class="edit3">
+       <img src="4.svg" alt="" class="edit4">
+       <img src="5.svg" alt="" class="edit5">
+    </div>
             </section>
+            <section class="middle" style="background-color:#00b39b54;">
+                <div>
+                    <div class="thing1">   
+                        <h1>The world's biggest
+                        healthcare platform</h1>
+                    <p>We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+                    </div>
+                    <img class="" src="pixl.png" alt="">
+                </div>
+           <div class="items">
+                 <div class="flag" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.562), 0 6px 20px 0 rgba(0, 0, 0, 0.5);">
+                    <svg style="font-size: 40px;" class="flag-" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V64 368 480c0 17.7 14.3 32 32 32s32-14.3 32-32V352l64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30V66.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L64 48V32z"/></svg>
+                    <h4 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; justify-content: center;margin-left: 5px; color: #00b39b;font-weight: 200; font-size: large;">Leader in 13 countries</h4>
+                    <p style="font-size: small; flex-wrap: wrap; margin-left: 5px;">Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+                 </div>
 
+                 <div class="calendria" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.466);">
+                    <svg style="font-size: 40px;" class="calendria-" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/></svg>
+                <h4 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top:20px; color: #00b39b;font-weight: 200; font-size: large; margin-left: 25px;">15,000,000
+                    appointments</h4> 
+                    <p style="font-size: small; flex-wrap: wrap;margin-top: 20px; margin-left: 12px; margin-left: 25px;">booked last month</p>
+                </div>
 
+                 <div class="users" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.493), 0 6px 20px 0 rgba(0, 0, 0, 0.582);">
+                    <svg style="font-size: 40px;" class="users-" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
+                    <h4 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; justify-content: center; margin-top:20px;: 10px; color: #00b39b;font-weight: 200; font-size: large; margin-left: 40px;">90,000,000 
+                        patients</h4> 
+                 <p>visit our websites each month</p> 
+                </div>
 
+                 <div class="people" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.527), 0 6px 20px 0 rgba(0, 0, 0, 0.582);">
+                    <svg style="font-size: 50px;" class="people-" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"/></svg>
+                    <h4 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; justify-content: center;margin-left: 10px; color: #00b39b;font-weight: 200; font-size: larger; margin-left: 40px; margin-top: 25px;" >210,000
+                        active doctors</h4>
+                   <p style="font-size: small; flex-wrap: wrap; margin-left: 12px; margin-left: 40px; margin-top: 25px;" >trust our solutions</p>
+                 </div>
+            </div>
+            </section>
+<section class="last-1" style="margin-top: 120px;">
 
+<h1 class="last">Improve the lives of millions. <br> Change yours forever.</h1>
+<p class="last">More than 2800 team mates share our same vision, goals and passion. <br> With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, <br> Mexico City and Curitiba, our search for great talent never stops.</p>
+            </section>
+            
+                
+            
+            <section class="last-2">
+               <div>
+                <div class="card" style="width: 18rem; " style="height: 1px;">
+                    <img src="image1.png" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">warsaw</h5>                   
+                      <a href="#" class="btn btn-primary">See openings</a>
+                    </div>
+                </div>
+            </div>
+           
 
+                <div>
+                         <div class="card" style="width: 18rem;">
+                        <img src="image2.png" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">barcelona</h5>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn btn-primary">see openings</a>
+                        </div>
+                        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
+                    </div>
+<div >
+                        <div class="card" style="width: 18rem; box-shadow: ;">
+                            <img src="image3.png" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">munich</h5>                   
+                              <a href="#" class="btn btn-primary">See openings</a>
+                            </div>
+                        </div>
+                        </div>
+                                                    </section>
 
      </header>
-    
+    <section class="final">
+    <div class="lat">
+    <h1>Sounds interesting? Join us now!</h1>
+   <a href="#" style="font-size: 15px;">see all current openings</a>
+</div>
+</section>
 </body>
 </html>
