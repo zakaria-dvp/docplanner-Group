@@ -411,11 +411,10 @@ justify-content: center;
     margin-left: 90px;
 
 }
-.last-2{
-display: flex;
-gap: 50px 50px;
+.row{
 flex-wrap: wrap;
-margin-left: 80px;
+gap: auto;
+margin: 5px;
 }
 .final h1{
     /* font-size: 27px; */
