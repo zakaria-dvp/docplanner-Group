@@ -413,8 +413,10 @@ justify-content: center;
 }
 .row{
 flex-wrap: wrap;
-gap: auto;
+/* gap: auto; */
+align-content: space-around;
 margin: 5px;
+row-gap: 70px 70px;
 }
 .final h1{
     /* font-size: 27px; */
